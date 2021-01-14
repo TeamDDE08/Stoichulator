@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Stoichulator"
+        android:textColor="@color/teal_700"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/Formulas"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Formulas and Equations"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SampleProb"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/Stoichiometry"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Stoichiometry"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Calculator"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/Periodic"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Periodic Table"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Exercises"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/Exercises"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Exercises"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Formulas"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/SampleProb"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Sample Problems"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Stoichiometry"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/Calculator"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@color/teal_700"
+        android:text="Calculator"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.096" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
