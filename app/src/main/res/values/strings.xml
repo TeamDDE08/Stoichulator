@@ -1,3 +1,84 @@
 <resources>
     <string name="app_name">Stoichulator</string>
+    <string name="definition"><b>Stoichiometry</b> comes from the Greek <b><i>stocheion</i></b>, meaning element and <b><i>metron</i></b>.
+        It is the aspect of chemistry that concerns itself with weight relations in chemical reactions.
+        Stoichiometry rests on the concept of a chemical equation , which in turn is dependent on the idea of a chemical reaction.
+        The quantitative interpretation of a chemical formula is tied to the concept of atomic mass.
+        Thus, stoichiometry is the manipulation of atomic masses to account for the amounts of material observed which
+        will be used up and produced in chemical changes.</string>
+    <string name="sample_problem">Sample Problem</string>
+    <string name="problem_one"><b>Problem:</b> Silver (Ag) is used in jewelry and tableware but no longer in U.S. coins.
+        How many grams of Ag are in 0.0342 mol of Ag?</string>
+    <string name="problem_two"><b>Problem:</b> Gallium (Ga) is a key element in solar panels, calculators and other light-sensitive electronic devices.
+        How many Ga atoms are in 2.85 x 10-3 mol of gallium?</string>
+    <string name="problem_three"><b>Problem:</b> Iron (Fe) is the main component of steel and is therefore the most important metal in society;
+        it is also essential in the body. How many Fe atoms are in 95.8 g of Fe?</string>
+    <string name="problem_four"><b>Problem:</b> Nitrogen dioxide is a component of urban smog that forms from the gases in car exhausts.
+        How many molecules are in 8.92 g of nitrogen dioxide?.</string>
+    <string name="problem_five"><b>Problem:</b> Ammonium carbonate, a white solid that decomposes on warming, is an component of baking powder.
+        a) How many formula units are in 41.6 g of ammonium carbonate?
+        b) How many O atoms are in this sample?</string>
+    <string name="atoms">
+        If you know atomic number (Z), atomic mass (A) and charge (z),
+        you can calculate numbers of protons (p), neutrons (n) and electrons (e)
+        by given mathematical equations (1-3):</string>
+    <string name="Calculate"><b>How to calculate atomic number, atomic mass and charge or numbers of protons, neutrons and electrons?</b></string>
+    <string name="equations">p = Z (1)  n = A - Z (2)  e = Z - z (3)</string>
+    <string name="atomic">On the other hand, if you know numbers of protons (p), neutrons (n) and electrons (e),
+    you can calculate atomic number (Z), atomic mass (A) and charge (z) (equations (4-6)):</string>
+    <string name="equations_two">Z = p (4)  A = p + n (5)  z = p - e (6)</string>
+    <string name="atomic_mass"><b>How to calculate the atomic number, the atomic mass and charge or numbers of protons, neutrons, and electrons?</b></string>
+    <string name="choose">Choose your element. Let’s assume that it is the atom of sodium (Na).
+        The charge is 0. Find the atomic number (Z) and mass number (A). They are equal to 11 and 23, respectively.</string>
+    <string name="AvogadrosDefinition">The Avogadros number definition is simple really; it is the number of particles in a mole. How many particles? Exactly 6.02214085774 ×1023 mol−1. The particles can be anything, molecules, atoms and radioactive ions but also things like tanks of petrol, tubes of toothpaste, cigarettes, donuts, and even pizza! As long as there is 6.02214085774 ×1023 of them.</string>
+    <string name="ConstantUnit">The Avogadros constant units may be difficult to deduce at first glance.
+        How can such a strange concept have a unit? Lets have a look at the equation this Avogadros number calculator uses:</string>
+    <string name="Variables">Now, by knowing the units of the other two variables, we can work out the Avogadros number units:
+            For moles, the unit is simply moles.
+            The number of atoms is just a number; therefore it is dimensionless, i.e., it does not any units.
+            Rearrange the formula to find Avogadros constant: number of atoms / moles = Avogadros number
+            So on the left-hand side, we have no units / moles, which can be expressed as mol-1.
+            As the left-hand side equals the right-hand side, the Avogadros number units is mol-1.
+            There you go, the units of Avogadros number is mol-1.
+            Remember that you can always find the units of something if you know an equation with it in and the units of the rest of the variables!</string>
+    <string name="amount_of_bleach">Amount of bleach needed is given in milligrams (mg);
+        Desired concentration of mixture is given in milligrams per liter or parts per million (mg/L or ppm);
+        and Desired volume of mixture is given in liters (L).</string>
+    <string name="hydrogen_atom">Each hydrogen atom has one valence electron. So, when two atoms bond, there are two electrons in total.
+            They fill out the bonding orbital, as its more energy-efficient.</string>
+    <string name="carbon">Carbon has two electrons in the s orbital, and two in the p orbital.
+            Oxygen has two electrons in the s orbital, and four in the p orbital.
+            When they bond, there are four electrons in the s orbital and six electrons on p orbital.
+            So, in orbital s there are two bonding electrons and two antibonding electrons, and in orbital p:
+            six bonding electrons. As the s orbitals cancel each other out,
+            the 6 bonding orbitals form 3 bonds, which is why carbon monoxide has a triple bond!.</string>
+    <string name="percentage_concentration">One of the types of percentage concentration is mass percent concentration (wt%).
+            It is expressed by mass of solute divided by total mass of the solution and multiplied by 100%.</string>
+    <string name="density">If you know density (d [g/dm³]) and molarity (c [mol/dm³]) of the solution and molar mass (M [g/mol]) of solute,
+            you can calculate mass percentage concentration by a given mathematical equation:</string>
+    <string name="alternatively">Alternatively, if you know density (d) and mass percentage concentration (wt% [%])
+        of the solution and molar mass (M) of solute, you can calculate molarity by a given mathematical equation </string>
+    <string name="knowing">Knowing the mass percentage concentration (wt%), you can easily calculate mass of solute (m₁) </string>
+    <string name="Where">where m is mass of solute per 100 g of water [g/100 g H₂O], m₁ - mass of solute, calculated from equation (4) [g], m₂ - total mass of solution [g]. In order to make calculations easier, it can be assumed that m₂ = 100 g.</string>
+    <string name="greatest_common_factor">If these volumes are expressed in the same units,
+        you can cancel each side down using their greatest common factor,
+        you will end up with the simplest integer expression of the dilution factor. Their formulas are</string>
+    <string name="Exercise1a">a. Describe how you would prepare 1 L of a 1 M solution of sodium chloride.
+        The gram formula weight of sodium chloride is 58.44 g/mol.</string>
+    <string name="Exercise2">a. Describe how you would prepare 100 g of a solution that is 0.5% phenolphthalein by mass. Answer: Since the solute (phenolphthalein) is a solid, the solution is percent by mass. Mass percent means the number of grams of solute per 100 g of solution. mass percent = (mass of solute/mass of solution) × 100% mass of solute = mass percent × mass of solution/100% = 0.5% x 100 g/100% = 0.5 g Since the total mass of the solution equals 100 g, the remaining 99.5 g of the solution is water. To prepare the solution, dissolve 0.5 g phenolphthalein in 99.5 g distilled or deionized water. b. Describe how you would prepare 100 mL of a solution that is 22% acetic acid by volume. Answer: Volume percent means the number of milliliters of solute per 100 mL of solution. Dilute 22 mL acetic acid with distilled or deionized water to make 100 mL of solution.</string>
+    <string name="answer1a"><b>Answer:</b> To make a 1 M solution of sodium chloride, dissolve 58.44 g sodium chloride in 500 mL water in a 1000-mL volumetric flask.
+        When all the solid is dissolved and the solution is at room temperature, dilute to the mark and invert the flask several times to mix.></string>
+    <string name="Exercise2b">b. Describe how you would prepare 1 L of a 2 M solution of acetic acid. The gram formula weight of acetic acid is 60.05 g/mol, and its density is 1.049 g/mL.</string>
+    <string name="answer1b"><b>Answer:</b> To make a 2 M solution of acetic acid, dissolve 120.1 g acetic acid in 500 mL distilled or deionized water in a 1000-mL volumetric flask. Since acetic acid is a liquid, it may also be measured by volume. Divide the mass of acid by its density (1.049 g/mL) to determine the volume (114 mL). Use either 120.1 g or 114 mL acetic acid to make the solution. Swirl the flask gently to mix the solution. Once the solution is at room temperature, dilute to the mark and invert the flask several times to mix.</string>
+    <string name="exercises2a">a. Describe how you would prepare 100 g of a solution that is 0.5% phenolphthalein by mass.</string>
+    <string name="answer2a"><b>Answer:</b> Since the solute (phenolphthalein) is a solid, the solution is percent by mass. Mass percent means the number of grams of solute per 100 g of solution.</string>
+    <string name="exercises2a_con">Since the total mass of the solution equals 100 g, the remaining 99.5 g of the solution is water. To prepare the solution, dissolve 0.5 g phenolphthalein in 99.5 g distilled or deionized water.</string>
+    <string name="exercise2b">b. Describe how you would prepare 100 mL of a solution that is 22% acetic acid by volume.</string>
+    <string name="answer2b"><b>Answer:</b> Volume percent means the number of milliliters of solute per 100 mL of solution. Dilute 22 mL acetic acid with distilled or deionized water to make 100 mL of solution.</string>
+    <string name="exercise3a">a. Describe how you would prepare 1.0 L of a 0.10 M solution of sulfuric acid from a 3.0 M solution of sulfuric acid.</string>
+    <string name="answer3a"><b>Answer:</b> Calculate the volume of 3.0 M sulfuric acid needed to prepare the dilution.</string>
+    <string name="exercise3b">b.Describe how you would prepare 500 mL of a 0.25 M solution of sodium hydroxide from a 5.0 M solution of sodium hydroxide.</string>
+    <string name="answer3b"><b>Answer:</b> Calculate the volume of 5.0 M sodium hydroxide needed to prepare the dilution.</string>
+    <string name="exercise4a">Describe how you would prepare 1000 mL of a 1.0 N solution of magnesium hydroxide. The gram formula weight of magnesium hydroxide is 58.33 g/mol.</string>
+    <string name="answer4a"><b>Answer:</b> Magnesium hydroxide contains two hydroxyl groups. One-half mole of magnesium hydroxide, therefore, accepts one mole of protons. To prepare a 1.0 N solution of magnesium hydroxide, slowly add 29 g magnesium hydroxide to a 500-mL volumetric flask half-filled with distilled or deionized water and swirl the flask to mix. When all the solid is dissolved and the solution is at room temperature, dilute to the mark and invert the flask several times to mix.</string>
 </resources>

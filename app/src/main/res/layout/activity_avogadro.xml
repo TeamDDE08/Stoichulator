@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Atoms"
+            android:layout_width="290dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Avogadro's number"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Calculate"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="What is Avogadro's number?"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Equations"
+            android:layout_width="291dp"
+            android:layout_height="163dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/AvogadrosDefinition"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Avogadro's number units"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="291dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ConstantUnit"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="291dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:text="number of atoms = Avogadro's number * moles"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="291dp"
+            android:layout_height="303dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Variables"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>

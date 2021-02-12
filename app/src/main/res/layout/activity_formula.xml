@@ -4,116 +4,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/yellow"
+    tools:context=".Formula">
 
-    <ImageView
-        android:id="@+id/Stoichulator"
-        android:layout_width="415dp"
-        android:layout_height="220dp"
-        android:src="@drawable/stoichulator_img"
+    <TextView
+        android:id="@+id/Formulas"
+        android:layout_width="264dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:text="Formulas and Equations"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <Button
-        android:id="@+id/Formulas"
+        android:id="@+id/Atoms"
         android:layout_width="290dp"
         android:layout_height="45dp"
         android:background="@drawable/button"
-        android:text="Formulas and Equations"
-        android:textColor="#FFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Problem"
-        app:layout_constraintVertical_bias="0.039" />
-
-    <Button
-        android:id="@+id/Stoichiometry"
-        android:layout_width="290dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button"
-        android:text="Stoichiometry"
-        android:textColor="#FFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Calculator"
-        app:layout_constraintVertical_bias="0.022" />
-
-    <Button
-        android:id="@+id/Periodic"
-        android:layout_width="290dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button"
-        android:text="Periodic Table of the..."
-        android:textColor="#FFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Exercises"
-        app:layout_constraintVertical_bias="0.075" />
-
-    <Button
-        android:id="@+id/Elements"
-        android:layout_width="290dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button"
-        android:text="List of Periodic Table"
-        android:textColor="#FFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Periodic"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/Exercises"
-        android:layout_width="290dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button"
-        android:text="Exercises"
+        android:text="Atoms"
         android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Formulas"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.039" />
 
     <Button
-        android:id="@+id/Problem"
+        android:id="@+id/Avogadro"
         android:layout_width="290dp"
         android:layout_height="45dp"
         android:background="@drawable/button"
-        android:text="Sample Problems"
-        android:textColor="#FFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Stoichiometry"
-        app:layout_constraintVertical_bias="0.035" />
-
-    <Button
-        android:id="@+id/Calculator"
-        android:layout_width="290dp"
-        android:layout_height="45dp"
-        android:background="@drawable/button"
-        android:text="Calculator"
+        android:text="Avogadro's Number"
         android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Stoichulator"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintTop_toBottomOf="@+id/Atoms"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/Bleach"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Bleach Dilution"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Avogadro"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/Bond"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Bond Order"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bleach"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/Concentration"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Concentration"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bond"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/Dilution"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Dilution Factor"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Concentration"
+        app:layout_constraintVertical_bias="0.096" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

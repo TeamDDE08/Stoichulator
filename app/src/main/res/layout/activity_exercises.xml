@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Exercises"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Exercises"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/problem1.1"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Problem 1.1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Mass"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculating the Mass of a Given Amount of an Element"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/problem_one"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/problem1.2"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Problem 1.2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Entities"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculating the Number of Entities in a Given Amount of an Element"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/problem_two"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/problem1.3"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Problem 1.3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculating the Number of Entities in a Given Mass of an Element"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/problem_three"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/problem1.4"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Problem 1.4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CompoundI"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculating the Number of Chemical Entities in a Given Mass of a Compound I"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/problem_four"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/problem1.5"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Problem 1.5"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CompoundII"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Calculating the Number of Chemical Entities in a Given Mass of a Compound II"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="@string/problem_five"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+
+        <ImageView
+        android:layout_width="289dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/problems" />
+
+    </LinearLayout>
+</ScrollView>
+

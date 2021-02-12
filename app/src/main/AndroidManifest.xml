@@ -4,14 +4,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/stoichulator_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:roundIcon="@mipmap/stoichulator_launcher_round"
         android:theme="@style/Theme.Stoichulator">
 
         <activity
-            android:label="Stoichulator"
             android:theme="@style/Theme.Stoichulator"
             android:name=".SplashScreen">
             <intent-filter>
@@ -21,9 +20,31 @@
         </activity>
 
         <activity
-            android:label="Stoichulator"
             android:name=".MainActivity"/>
-
+        <activity android:name=".Calculator"/>
+        <activity android:name=".PeriodicTable" />
+        <activity android:name=".SampleProblems"/>
+        <activity android:name=".Element" />
+        <activity android:name=".Stoichulator"/>
+        <activity android:name=".Stoichiometry"/>
+        <activity android:name=".Problem"/>
+        <activity android:name=".Problem2"/>
+        <activity android:name=".Problem3"/>
+        <activity android:name=".Problem4"/>
+        <activity android:name=".Exercises"/>
+        <activity android:name=".Atoms"/>
+        <activity android:name=".Avogadro"/>
+        <activity android:name=".Bleach"/>
+        <activity android:name=".BondOrder"/>
+        <activity android:name=".Concentration"/>
+        <activity android:name=".Dilution"/>
+        <activity android:name=".Formula"/>
+        <activity android:name=".AtomCalc"/>
+        <activity android:name=".Molality"/>
+        <activity android:name=".Mole"/>
+        <activity android:name=".MoleFraction"/>
+        <activity android:name=".Neutralization"/>
+        <activity android:name=".PercentYield"/>
 
     </application>
 

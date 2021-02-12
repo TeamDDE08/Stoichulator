@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Bond"
+            android:layout_width="290dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Bond Order"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Calculate"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="How to calculate bond order?"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Equations"
+            android:layout_width="291dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:text="After you determine how many bonding and antibonding electrons there are, use this bond order formula:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Bond Order = (Number of bonding electrons - Number of antibonding electrons) / 2"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Examples"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Examples"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="291dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:text="1. The bond order of H2 (hydrogen) \nBond order = (2 - 0) / 2 = 1"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="291dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hydrogen_atom"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TextView6"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="2. The bond order of CO (carbon monoxide) \nBond order = (8 - 2) / 2 = 3"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="291dp"
+            android:layout_height="237dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/carbon"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>

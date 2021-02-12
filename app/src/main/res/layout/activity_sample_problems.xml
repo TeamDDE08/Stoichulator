@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".SampleProblems">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Sample Problems"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/Molar"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Molar Solutions"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/Percent"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Percent Solutions"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Molar"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/Dilutions"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Dilutions"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Percent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/Normal"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="Normal Solutions"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dilutions"
+        app:layout_constraintVertical_bias="0.09" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Exercises"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Exercises"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Mass"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Dilution"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/exercise3a"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Answer1a"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/answer3a"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Mreagent × Vreagent = Mdilution × Vdilution
+             \n3.0 M × Vreagent = 0.10 M × 1.0 L
+             \nVreagent = 0.033 L = 33 mL
+             \nSlowly add 33 mL of 3.0 M sulfuric acid to a 1000-mL volumetric flask half-filled with distilled or deionized water and swirl the flask to mix. Once the solution is at room temperature, dilute to the mark with water and invert the flask several times to mix."
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/exercise3b"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/answer3b"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Answer2b"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Mreagent × Vreagent = Mdilution × Vdilution
+            \n5.0 M × Vreagent = 0.25 M × 0.500 L
+            \nVreagent = 0.025 L = 25 mL
+            \nSlowly add 25 mL of 5.0 M sodium hydroxide to a 500-mL volumetric flask half-filled with distilled or deionized water and swirl the flask to mix. Once the solution is at room temperature, dilute to the mark with water and invert the flask several times to mix."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
